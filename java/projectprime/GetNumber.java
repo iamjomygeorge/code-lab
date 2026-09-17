@@ -8,6 +8,7 @@ public class GetNumber{
         System.out.print("\nInput number: ");
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
+        scanner.close();
         return number;
     }
 }

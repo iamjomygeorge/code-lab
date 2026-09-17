@@ -37,5 +37,6 @@ class Main {
             default:
                 System.out.println("\nInvalid entry. Please enter a valid choice.");
         }
+        scanner.close();
     }
 }
